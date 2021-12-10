@@ -1,0 +1,24 @@
+page{
+    background-color: #F2F2F2;
+}
+.tab-top {
+    width: 100vw;
+    height: 80px;
+    background: #FFFFFF;
+    display: flex;
+    padding-left: 36px;
+    font-size: 32px;
+    color: #111111;
+}
+.select-tab {
+    height: 6px;
+    background: #FF5000;
+    width: 40px;
+}
+.tab-item {
+    margin-top: 17px;
+    margin-right: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
