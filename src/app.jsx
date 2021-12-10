@@ -3,8 +3,8 @@ import { Provider } from '@tarojs/redux';
 import Index from './reducers';
 import cloud from '@tbmp/mp-cloud-sdk';
 import configStore from './store';
-import { userInfoInit } from 'utils/userinfo';
-import { settingManagerInit } from 'utils/settings';
+import { userInfoInit } from 'public/utils/userinfo';
+import { settingManagerInit } from 'public/utils/settings';
 import './app.scss'
 
 cloud.init({

@@ -1,7 +1,7 @@
-import { api } from 'utils/api';
-import { NOOP } from 'utils/index';
-import { qnRouter } from 'utils/qnRouter';
-import { showConfirmModal } from 'utils/prompt';
+import { api } from 'public/utils/api';
+import { NOOP } from 'public/utils/index';
+import { qnRouter } from 'public/utils/qnRouter';
+import { showConfirmModal } from 'public/utils/prompt';
 /**
 * 测试爱用api
 */

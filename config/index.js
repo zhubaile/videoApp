@@ -1,12 +1,13 @@
 const  path = require('path');
 const config = {
-  projectName: 'appointmemnt',
-  date: '2020-2-5',
+  projectName: 'videoApp',
+  date: '2021-12-10',
   designWidth: 750,
   deviceRatio: {
     '640': 2.34 / 2,
     '750': 1,
-    '828': 1.81 / 2
+    '828': 1.81 / 2,
+    '375': 0.5
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
@@ -97,6 +98,7 @@ const config = {
     'pages': path.resolve(__dirname, '../src/pages'),
     'utils': path.resolve(__dirname, '../src/utils'),
     "constants": path.resolve(__dirname, '../src/constants'),
+    "public": path.resolve(__dirname, '../src/public'),
   }
 }
 

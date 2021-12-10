@@ -2,7 +2,7 @@ import Taro, { Component } from '@tarojs/taro';
 import { connect } from '@tarojs/redux';
 import './index.scss';
 import { taoAuthListGet, taobaoItemListGet } from './action';
-import { events } from 'utils/eventManager';
+import { events } from 'public/utils/eventManager';
 
 @connect((store) => {
     return store.indexReducer;
